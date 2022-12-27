@@ -1,0 +1,912 @@
+[DEBUG] [2022-12-22 20:22:17,428 -0300] - Proxy host not provided
+[DEBUG] [2022-12-22 20:22:17,438 -0300] - Base url:'https://saas.whitesourcesoftware.com' 
+[INFO] [2022-12-22 20:22:17,632 -0300[ - UnifiedAgent version (pluginVersion) : 22.11.2
+[INFO] [2022-12-22 20:22:17,643 -0300[ - 
+##### general #####
+wss.url=https://saas.whitesourcesoftware.com/agent
+projectTag=
+projectName=Vulnpy_Master_ZUP_UA_Python
+productName=Vulnpy_Master_ZUP_UA_Python
+log.level=debug
+includes=**/*.7z,**/*.a,**/*.aar,**/*.air,**/*.apk,**/*.ar,**/*.bb,**/*.bz2,**/*.car,**/*.conda,**/*.cpa,**/*.crate,**/*.deb,**/*.dll,**/*.dmg,**/*.docker,**/*.drpm,**/*.ear,**/*.egg,**/*.epk,**/*.exe,**/*.gal,**/*.gem,**/*.gzip,**/*.har,**/*.hpi,**/*.jar,**/*.jar.pack.gz,**/*.jpi,**/*.js,**/*.ko,**/*.min.js,**/*.msi,**/*.nupkg,**/*.pkg.tar.xz,**/*.rpm,**/*.sar,**/*.sit,**/*.so,**/*.swc,**/*.swf,**/*.tar,**/*.tar.bz2,**/*.tar.gz,**/*.tbz,**/*.tgz,**/*.udeb,**/*.war,**/*.whl,**/*.zip,**/*.4th,**/*.6pl,**/*.6pm,**/*.8xk,**/*.8xk.txt,**/*.8xp,**/*.8xp.txt,**/*.E,**/*.ML,**/*._coffee,**/*._js,**/*._ls,**/*.abap,**/*.ada,**/*.adb,**/*.ado,**/*.adp,**/*.ads,**/*.agda,**/*.ahk,**/*.ahkl,**/*.aidl,**/*.aj,**/*.al,**/*.als,**/*.ampl,**/*.apl,**/*.app.src,**/*.applescript,**/*.arc,**/*.as,**/*.asax,**/*.asc,**/*.ascx,**/*.asd,**/*.ash,**/*.ashx,**/*.asmx,**/*.asp,**/*.aspx,**/*.au3,**/*.aug,**/*.auk,**/*.aw,**/*.awk,**/*.axd,**/*.axi,**/*.axi.erb,**/*.axs,**/*.axs.erb,**/*.b,**/*.bas,**/*.bash,**/*.bat,**/*.bats,**/*.bb,**/*.befunge,**/*.bf,**/*.bison,**/*.bmx,**/*.bones,**/*.boo,**/*.boot,**/*.brd,**/*.bro,**/*.brs,**/*.bsl,**/*.bsv,**/*.builder,**/*.bzl,**/*.c,**/*.c++,**/*.cake,**/*.capnp,**/*.cats,**/*.cbl,**/*.cc,**/*.ccp,**/*.cdf,**/*.ceylon,**/*.cfc,**/*.cfm,**/*.cfml,**/*.cgi,**/*.ch,**/*.chpl,**/*.chs,**/*.cirru,**/*.cjsx,**/*.ck,**/*.cl,**/*.cl2,**/*.click,**/*.clj,**/*.cljc,**/*.cljs,**/*.cljs.hl,**/*.cljscm,**/*.cljx,**/*.clp,**/*.cls,**/*.clw,**/*.cmd,**/*.cob,**/*.cobol,**/*.coffee,**/*.com,**/*.command,**/*.coq,**/*.cp,**/*.cpp,**/*.cps,**/*.cpy,**/*.cr,**/*.cs,**/*.csd,**/*.cshtml,**/*.csx,**/*.ctp,**/*.cu,**/*.cuh,**/*.cw,**/*.cxx,**/*.cy,**/*.d,**/*.dart,**/*.dats,**/*.db2,**/*.dcl,**/*.decls,**/*.dfm,**/*.di,**/*.djs,**/*.dlm,**/*.dm,**/*.do,**/*.doh,**/*.dpr,**/*.druby,**/*.duby,**/*.dyalog,**/*.dyl,**/*.dylan,**/*.e,**/*.ec,**/*.ecl,**/*.eclxml,**/*.eh,**/*.el,**/*.eliom,**/*.eliomi,**/*.elm,**/*.em,**/*.emacs,**/*.emacs.desktop,**/*.emberscript,**/*.eq,**/*.erl,**/*.es,**/*.es6,**/*.escript,**/*.ex,**/*.exs,**/*.eye,**/*.f,**/*.f03,**/*.f08,**/*.f77,**/*.f90,**/*.f95,**/*.factor,**/*.fan,**/*.fancypack,**/*.fcgi,**/*.feature,**/*.flex,**/*.flux,**/*.for,**/*.forth,**/*.fp,**/*.fpp,**/*.fr,**/*.frag,**/*.frg,**/*.frm,**/*.frt,**/*.frx,**/*.fs,**/*.fsh,**/*.fshader,**/*.fsi,**/*.fsx,**/*.fth,**/*.ftl,**/*.fun,**/*.fx,**/*.fxh,**/*.fy,**/*.g,**/*.g4,**/*.gap,**/*.gawk,**/*.gd,**/*.gdb,**/*.gdbinit,**/*.gemspec,**/*.geo,**/*.geom,**/*.gf,**/*.gi,**/*.glf,**/*.glsl,**/*.glslv,**/*.gml,**/*.gms,**/*.gnu,**/*.gnuplot,**/*.go,**/*.god,**/*.golo,**/*.gp,**/*.grace,**/*.groovy,**/*.grt,**/*.gs,**/*.gshader,**/*.gsp,**/*.gst,**/*.gsx,**/*.gtpl,**/*.gvy,**/*.gyp,**/*.gypi,**/*.h,**/*.h++,**/*.hats,**/*.hb,**/*.hcl,**/*.hh,**/*.hic,**/*.hlean,**/*.hlsl,**/*.hlsli,**/*.hpp,**/*.hqf,**/*.hrl,**/*.hs,**/*.hsc,**/*.hx,**/*.hxsl,**/*.hxx,**/*.hy,**/*.i7x,**/*.iced,**/*.icl,**/*.idc,**/*.idr,**/*.ihlp,**/*.ijs,**/*.ik,**/*.ily,**/*.inc,**/*.inl,**/*.ino,**/*.intr,**/*.io,**/*.ipf,**/*.ipp,**/*.irbrc,**/*.iss,**/*.j,**/*.jake,**/*.java,**/*.jbuilder,**/*.jflex,**/*.ji,**/*.jison,**/*.jisonlex,**/*.jl,**/*.jq,**/*.js,**/*.jsb,**/*.jscad,**/*.jsfl,**/*.jsm,**/*.jsp,**/*.jss,**/*.jsx,**/*.kicad_pcb,**/*.kid,**/*.krl,**/*.ksh,**/*.kt,**/*.ktm,**/*.kts,**/*.l,**/*.lagda,**/*.las,**/*.lasso,**/*.lasso8,**/*.lasso9,**/*.ldml,**/*.lean,**/*.lex,**/*.lfe,**/*.lgt,**/*.lhs,**/*.lid,**/*.lidr,**/*.lisp,**/*.litcoffee,**/*.ll,**/*.lmi,**/*.logtalk,**/*.lol,**/*.lookml,**/*.lpr,**/*.ls,**/*.lsl,**/*.lslp,**/*.lsp,**/*.lua,**/*.lvproj,**/*.ly,**/*.m,**/*.m4,**/*.ma,**/*.mak,**/*.make,**/*.mako,**/*.mao,**/*.mata,**/*.matah,**/*.mathematica,**/*.matlab,**/*.mawk,**/*.maxhelp,**/*.maxpat,**/*.maxproj,**/*.mcr,**/*.metal,**/*.minid,**/*.mir,**/*.mirah,**/*.mk,**/*.mkfile,**/*.ml,**/*.ml4,**/*.mli,**/*.mll,**/*.mly,**/*.mm,**/*.mmk,**/*.mms,**/*.mo,**/*.mod,**/*.model.lkml,**/*.monkey,**/*.moo,**/*.moon,**/*.mq4,**/*.mq5,**/*.mqh,**/*.ms,**/*.mspec,**/*.mss,**/*.mt,**/*.mu,**/*.muf,**/*.mumps,**/*.mxt,**/*.myt,**/*.n,**/*.nawk,**/*.nb,**/*.nbp,**/*.nc,**/*.ncl,**/*.ni,**/*.nim,**/*.nimrod,**/*.nit,**/*.nix,**/*.njs,**/*.nl,**/*.nlogo,**/*.nqp,**/*.nse,**/*.nsh,**/*.nsi,**/*.nu,**/*.numpy,**/*.numpyw,**/*.numsc,**/*.nut,**/*.ny,**/*.omgrofl,**/*.ooc,**/*.opa,**/*.opal,**/*.opencl,**/*.orc,**/*.os,**/*.ox,**/*.oxh,**/*.oxo,**/*.oxygene,**/*.oz,**/*.p,**/*.p4,**/*.p6,**/*.p6l,**/*.p6m,**/*.pac,**/*.pan,**/*.parrot,**/*.pas,**/*.pascal,**/*.pasm,**/*.pat,**/*.pb,**/*.pbi,**/*.pbt,**/*.pck,**/*.pd,**/*.pd_lua,**/*.pde,**/*.perl,**/*.ph,**/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phps,**/*.phpt,**/*.pig,**/*.pike,**/*.pir,**/*.pkb,**/*.pks,**/*.pl,**/*.pl6,**/*.plb,**/*.plot,**/*.pls,**/*.plsql,**/*.plt,**/*.pluginspec,**/*.plx,**/*.pm,**/*.pm6,**/*.pmod,**/*.pod,**/*.podsl,**/*.podspec,**/*.pogo,**/*.pony,**/*.pov,**/*.pp,**/*.pprx,**/*.prg,**/*.pri,**/*.pro,**/*.prolog,**/*.prw,**/*.ps1,**/*.psc,**/*.psd1,**/*.psgi,**/*.psm1,**/*.purs,**/*.pwn,**/*.pxd,**/*.pxi,**/*.py,**/*.py3,**/*.pyde,**/*.pyp,**/*.pyt,**/*.pyw,**/*.pyx,**/*.qbs,**/*.qml,**/*.r,**/*.r2,**/*.r3,**/*.rabl,**/*.rake,**/*.rb,**/*.rbbas,**/*.rbfrm,**/*.rbmnu,**/*.rbres,**/*.rbtbar,**/*.rbuild,**/*.rbuistate,**/*.rbw,**/*.rbx,**/*.rbxs,**/*.rd,**/*.re,**/*.reb,**/*.rebol,**/*.red,**/*.reds,**/*.rei,**/*.rex,**/*.rexx,**/*.rg,**/*.rkt,**/*.rktd,**/*.rktl,**/*.rl,**/*.rpy,**/*.rs,**/*.rs.in,**/*.rsc,**/*.rsh,**/*.rsx,**/*.ru,**/*.ruby,**/*.sage,**/*.sagews,**/*.sas,**/*.sats,**/*.sbt,**/*.sc,**/*.scad,**/*.scala,**/*.scd,**/*.sce,**/*.sch,**/*.sci,**/*.scm,**/*.sco,**/*.scpt,**/*.scrbl,**/*.self,**/*.sexp,**/*.sh,**/*.sh-session,**/*.sh.in,**/*.shader,**/*.shen,**/*.sig,**/*.sj,**/*.sjs,**/*.sl,**/*.sld,**/*.sls,**/*.sma,**/*.smali,**/*.sml,**/*.smt,**/*.smt2,**/*.sp,**/*.spec,**/*.spin,**/*.sps,**/*.sqf,**/*.sql,**/*.sra,**/*.sru,**/*.srw,**/*.ss,**/*.ssjs,**/*.st,**/*.stan,**/*.sthlp,**/*.sv,**/*.svh,**/*.swift,**/*.t,**/*.tac,**/*.tcc,**/*.tcl,**/*.tf,**/*.thor,**/*.thrift,**/*.thy,**/*.tla,**/*.tm,**/*.tmux,**/*.tool,**/*.tpl,**/*.tpp,**/*.ts,**/*.tst,**/*.tsx,**/*.tu,**/*.txl,**/*.uc,**/*.udo,**/*.uno,**/*.upc,**/*.ur,**/*.urs,**/*.v,**/*.vala,**/*.vapi,**/*.vark,**/*.vb,**/*.vba,**/*.vbhtml,**/*.vbs,**/*.vcl,**/*.veo,**/*.vert,**/*.vh,**/*.vhd,**/*.vhdl,**/*.vhf,**/*.vhi,**/*.vho,**/*.vhs,**/*.vht,**/*.vhw,**/*.view.lkml,**/*.vim,**/*.volt,**/*.vrx,**/*.vsh,**/*.vshader,**/*.w,**/*.watchr,**/*.webidl,**/*.wisp,**/*.wl,**/*.wlt,**/*.wlua,**/*.wsgi,**/*.x,**/*.x10,**/*.xc,**/*.xi,**/*.xm,**/*.xojo_code,**/*.xojo_menu,**/*.xojo_report,**/*.xojo_script,**/*.xojo_toolbar,**/*.xojo_window,**/*.xpl,**/*.xproc,**/*.xpy,**/*.xq,**/*.xql,**/*.xqm,**/*.xquery,**/*.xqy,**/*.xrl,**/*.xs,**/*.xsjs,**/*.xsjslib,**/*.xsl,**/*.xslt,**/*.xsp-config,**/*.xsp.metadata,**/*.xtend,**/*.y,**/*.yacc,**/*.yap,**/*.yrl,**/*.yy,**/*.zep,**/*.zimpl,**/*.zmpl,**/*.zpl,**/*.zsh
+forceUpdate.failBuildOnPolicyViolation=false
+forceUpdate=false
+forceCheckAllDependencies=false
+configFilePath=c:\WhiteSource\wss-unified-agent-22.11.2\wss-unified-agent.config
+checkPolicies=false
+apiKey=******
+#whiteSourceFolderPath=.
+#userKey=
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#showProgressBar=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#resolveAllDependencies=true
+#requireKnownSha1=true
+#requesterEmail=
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#offline=false
+#ignoreEuaNotices=informational
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#fileSystemScan=true
+#failErrorLevel=DEFAULT
+#excludes=**/.*,**/node_modules,**/src/test,**/testdata,**/*sources.jar,**/*javadoc.jar
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#commandTimeout=900
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+##### ANT #####
+#ant.resolveDependencies=true
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=true
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=true
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.runPreStep=false
+#haskell.resolveDependencies=true
+#haskell.ignoreSourceFiles=true
+#haskell.ignorePreStepErrors=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=true
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=true
+#cocoapods.ignoreSourceFiles=true
+
+##### conda #####
+#conda.resolveDependencies=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scanContainers=false
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=true
+case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=true
+#go.modules.resolveDependencies=true
+#go.modules.removeDuplicateDependencies=true
+#go.modules.includeTestDependencies=false
+#go.modules.ignoreSourceFiles=true
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+#gradle.resolveDependencies=true
+#gradle.preferredEnvironment=wrapper
+#gradle.innerModulesAsDependencies=true
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.aggregateModules=false
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=true
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=true
+
+##### maven #####
+#maven.runPreStep=false
+#maven.resolveDependencies=true
+#maven.projectNameFromDependencyFile=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.ignoreMvnTreeErrors=false
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.aggregateModules=false
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=true
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=true
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=true
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=true
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=true
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=true
+#php.removeDuplicateDependencies=true
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=true
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=true
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=true
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+#sbt.runPreStep=false
+#sbt.resolveDependencies=true
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.user=
+#scm.url=
+#scm.tag=
+#scm.repositoriesFile=
+#scm.ppk=
+#scm.pass=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[DEBUG] [2022-12-22 20:22:18,903 -0300[ - Available processors (cores): 	8
+Free memory (Mb): 	504
+Max memory (Mb): 	4024
+Total memory (Mb): 	838
+Used memory (Mb): 	333
+
+[INFO] [2022-12-22 20:22:18,910 -0300[ - Starting analysis
+[INFO] [2022-12-22 20:22:18,911 -0300[ - Scanning directories [C:\whitesource\Projects\vulpy-master] for package dependencies (may take a few minutes)
+[INFO] [2022-12-22 20:22:18,912 -0300[ - Included file types: **/*.7z,**/*.a,**/*.aar,**/*.air,**/*.apk,**/*.ar,**/*.bb,**/*.bz2,**/*.car,**/*.conda,**/*.cpa,**/*.crate,**/*.deb,**/*.dll,**/*.dmg,**/*.docker,**/*.drpm,**/*.ear,**/*.egg,**/*.epk,**/*.exe,**/*.gal,**/*.gem,**/*.gzip,**/*.har,**/*.hpi,**/*.jar,**/*.jar.pack.gz,**/*.jpi,**/*.js,**/*.ko,**/*.min.js,**/*.msi,**/*.nupkg,**/*.pkg.tar.xz,**/*.rpm,**/*.sar,**/*.sit,**/*.so,**/*.swc,**/*.swf,**/*.tar,**/*.tar.bz2,**/*.tar.gz,**/*.tbz,**/*.tgz,**/*.udeb,**/*.war,**/*.whl,**/*.zip,**/*.4th,**/*.6pl,**/*.6pm,**/*.8xk,**/*.8xk.txt,**/*.8xp,**/*.8xp.txt,**/*.E,**/*.ML,**/*._coffee,**/*._js,**/*._ls,**/*.abap,**/*.ada,**/*.adb,**/*.ado,**/*.adp,**/*.ads,**/*.agda,**/*.ahk,**/*.ahkl,**/*.aidl,**/*.aj,**/*.al,**/*.als,**/*.ampl,**/*.apl,**/*.app.src,**/*.applescript,**/*.arc,**/*.as,**/*.asax,**/*.asc,**/*.ascx,**/*.asd,**/*.ash,**/*.ashx,**/*.asmx,**/*.asp,**/*.aspx,**/*.au3,**/*.aug,**/*.auk,**/*.aw,**/*.awk,**/*.axd,**/*.axi,**/*.axi.erb,**/*.axs,**/*.axs.erb,**/*.b,**/*.bas,**/*.bash,**/*.bat,**/*.bats,**/*.bb,**/*.befunge,**/*.bf,**/*.bison,**/*.bmx,**/*.bones,**/*.boo,**/*.boot,**/*.brd,**/*.bro,**/*.brs,**/*.bsl,**/*.bsv,**/*.builder,**/*.bzl,**/*.c,**/*.c++,**/*.cake,**/*.capnp,**/*.cats,**/*.cbl,**/*.cc,**/*.ccp,**/*.cdf,**/*.ceylon,**/*.cfc,**/*.cfm,**/*.cfml,**/*.cgi,**/*.ch,**/*.chpl,**/*.chs,**/*.cirru,**/*.cjsx,**/*.ck,**/*.cl,**/*.cl2,**/*.click,**/*.clj,**/*.cljc,**/*.cljs,**/*.cljs.hl,**/*.cljscm,**/*.cljx,**/*.clp,**/*.cls,**/*.clw,**/*.cmd,**/*.cob,**/*.cobol,**/*.coffee,**/*.com,**/*.command,**/*.coq,**/*.cp,**/*.cpp,**/*.cps,**/*.cpy,**/*.cr,**/*.cs,**/*.csd,**/*.cshtml,**/*.csx,**/*.ctp,**/*.cu,**/*.cuh,**/*.cw,**/*.cxx,**/*.cy,**/*.d,**/*.dart,**/*.dats,**/*.db2,**/*.dcl,**/*.decls,**/*.dfm,**/*.di,**/*.djs,**/*.dlm,**/*.dm,**/*.do,**/*.doh,**/*.dpr,**/*.druby,**/*.duby,**/*.dyalog,**/*.dyl,**/*.dylan,**/*.e,**/*.ec,**/*.ecl,**/*.eclxml,**/*.eh,**/*.el,**/*.eliom,**/*.eliomi,**/*.elm,**/*.em,**/*.emacs,**/*.emacs.desktop,**/*.emberscript,**/*.eq,**/*.erl,**/*.es,**/*.es6,**/*.escript,**/*.ex,**/*.exs,**/*.eye,**/*.f,**/*.f03,**/*.f08,**/*.f77,**/*.f90,**/*.f95,**/*.factor,**/*.fan,**/*.fancypack,**/*.fcgi,**/*.feature,**/*.flex,**/*.flux,**/*.for,**/*.forth,**/*.fp,**/*.fpp,**/*.fr,**/*.frag,**/*.frg,**/*.frm,**/*.frt,**/*.frx,**/*.fs,**/*.fsh,**/*.fshader,**/*.fsi,**/*.fsx,**/*.fth,**/*.ftl,**/*.fun,**/*.fx,**/*.fxh,**/*.fy,**/*.g,**/*.g4,**/*.gap,**/*.gawk,**/*.gd,**/*.gdb,**/*.gdbinit,**/*.gemspec,**/*.geo,**/*.geom,**/*.gf,**/*.gi,**/*.glf,**/*.glsl,**/*.glslv,**/*.gml,**/*.gms,**/*.gnu,**/*.gnuplot,**/*.go,**/*.god,**/*.golo,**/*.gp,**/*.grace,**/*.groovy,**/*.grt,**/*.gs,**/*.gshader,**/*.gsp,**/*.gst,**/*.gsx,**/*.gtpl,**/*.gvy,**/*.gyp,**/*.gypi,**/*.h,**/*.h++,**/*.hats,**/*.hb,**/*.hcl,**/*.hh,**/*.hic,**/*.hlean,**/*.hlsl,**/*.hlsli,**/*.hpp,**/*.hqf,**/*.hrl,**/*.hs,**/*.hsc,**/*.hx,**/*.hxsl,**/*.hxx,**/*.hy,**/*.i7x,**/*.iced,**/*.icl,**/*.idc,**/*.idr,**/*.ihlp,**/*.ijs,**/*.ik,**/*.ily,**/*.inc,**/*.inl,**/*.ino,**/*.intr,**/*.io,**/*.ipf,**/*.ipp,**/*.irbrc,**/*.iss,**/*.j,**/*.jake,**/*.java,**/*.jbuilder,**/*.jflex,**/*.ji,**/*.jison,**/*.jisonlex,**/*.jl,**/*.jq,**/*.js,**/*.jsb,**/*.jscad,**/*.jsfl,**/*.jsm,**/*.jsp,**/*.jss,**/*.jsx,**/*.kicad_pcb,**/*.kid,**/*.krl,**/*.ksh,**/*.kt,**/*.ktm,**/*.kts,**/*.l,**/*.lagda,**/*.las,**/*.lasso,**/*.lasso8,**/*.lasso9,**/*.ldml,**/*.lean,**/*.lex,**/*.lfe,**/*.lgt,**/*.lhs,**/*.lid,**/*.lidr,**/*.lisp,**/*.litcoffee,**/*.ll,**/*.lmi,**/*.logtalk,**/*.lol,**/*.lookml,**/*.lpr,**/*.ls,**/*.lsl,**/*.lslp,**/*.lsp,**/*.lua,**/*.lvproj,**/*.ly,**/*.m,**/*.m4,**/*.ma,**/*.mak,**/*.make,**/*.mako,**/*.mao,**/*.mata,**/*.matah,**/*.mathematica,**/*.matlab,**/*.mawk,**/*.maxhelp,**/*.maxpat,**/*.maxproj,**/*.mcr,**/*.metal,**/*.minid,**/*.mir,**/*.mirah,**/*.mk,**/*.mkfile,**/*.ml,**/*.ml4,**/*.mli,**/*.mll,**/*.mly,**/*.mm,**/*.mmk,**/*.mms,**/*.mo,**/*.mod,**/*.model.lkml,**/*.monkey,**/*.moo,**/*.moon,**/*.mq4,**/*.mq5,**/*.mqh,**/*.ms,**/*.mspec,**/*.mss,**/*.mt,**/*.mu,**/*.muf,**/*.mumps,**/*.mxt,**/*.myt,**/*.n,**/*.nawk,**/*.nb,**/*.nbp,**/*.nc,**/*.ncl,**/*.ni,**/*.nim,**/*.nimrod,**/*.nit,**/*.nix,**/*.njs,**/*.nl,**/*.nlogo,**/*.nqp,**/*.nse,**/*.nsh,**/*.nsi,**/*.nu,**/*.numpy,**/*.numpyw,**/*.numsc,**/*.nut,**/*.ny,**/*.omgrofl,**/*.ooc,**/*.opa,**/*.opal,**/*.opencl,**/*.orc,**/*.os,**/*.ox,**/*.oxh,**/*.oxo,**/*.oxygene,**/*.oz,**/*.p,**/*.p4,**/*.p6,**/*.p6l,**/*.p6m,**/*.pac,**/*.pan,**/*.parrot,**/*.pas,**/*.pascal,**/*.pasm,**/*.pat,**/*.pb,**/*.pbi,**/*.pbt,**/*.pck,**/*.pd,**/*.pd_lua,**/*.pde,**/*.perl,**/*.ph,**/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phps,**/*.phpt,**/*.pig,**/*.pike,**/*.pir,**/*.pkb,**/*.pks,**/*.pl,**/*.pl6,**/*.plb,**/*.plot,**/*.pls,**/*.plsql,**/*.plt,**/*.pluginspec,**/*.plx,**/*.pm,**/*.pm6,**/*.pmod,**/*.pod,**/*.podsl,**/*.podspec,**/*.pogo,**/*.pony,**/*.pov,**/*.pp,**/*.pprx,**/*.prg,**/*.pri,**/*.pro,**/*.prolog,**/*.prw,**/*.ps1,**/*.psc,**/*.psd1,**/*.psgi,**/*.psm1,**/*.purs,**/*.pwn,**/*.pxd,**/*.pxi,**/*.py,**/*.py3,**/*.pyde,**/*.pyp,**/*.pyt,**/*.pyw,**/*.pyx,**/*.qbs,**/*.qml,**/*.r,**/*.r2,**/*.r3,**/*.rabl,**/*.rake,**/*.rb,**/*.rbbas,**/*.rbfrm,**/*.rbmnu,**/*.rbres,**/*.rbtbar,**/*.rbuild,**/*.rbuistate,**/*.rbw,**/*.rbx,**/*.rbxs,**/*.rd,**/*.re,**/*.reb,**/*.rebol,**/*.red,**/*.reds,**/*.rei,**/*.rex,**/*.rexx,**/*.rg,**/*.rkt,**/*.rktd,**/*.rktl,**/*.rl,**/*.rpy,**/*.rs,**/*.rs.in,**/*.rsc,**/*.rsh,**/*.rsx,**/*.ru,**/*.ruby,**/*.sage,**/*.sagews,**/*.sas,**/*.sats,**/*.sbt,**/*.sc,**/*.scad,**/*.scala,**/*.scd,**/*.sce,**/*.sch,**/*.sci,**/*.scm,**/*.sco,**/*.scpt,**/*.scrbl,**/*.self,**/*.sexp,**/*.sh,**/*.sh-session,**/*.sh.in,**/*.shader,**/*.shen,**/*.sig,**/*.sj,**/*.sjs,**/*.sl,**/*.sld,**/*.sls,**/*.sma,**/*.smali,**/*.sml,**/*.smt,**/*.smt2,**/*.sp,**/*.spec,**/*.spin,**/*.sps,**/*.sqf,**/*.sql,**/*.sra,**/*.sru,**/*.srw,**/*.ss,**/*.ssjs,**/*.st,**/*.stan,**/*.sthlp,**/*.sv,**/*.svh,**/*.swift,**/*.t,**/*.tac,**/*.tcc,**/*.tcl,**/*.tf,**/*.thor,**/*.thrift,**/*.thy,**/*.tla,**/*.tm,**/*.tmux,**/*.tool,**/*.tpl,**/*.tpp,**/*.ts,**/*.tst,**/*.tsx,**/*.tu,**/*.txl,**/*.uc,**/*.udo,**/*.uno,**/*.upc,**/*.ur,**/*.urs,**/*.v,**/*.vala,**/*.vapi,**/*.vark,**/*.vb,**/*.vba,**/*.vbhtml,**/*.vbs,**/*.vcl,**/*.veo,**/*.vert,**/*.vh,**/*.vhd,**/*.vhdl,**/*.vhf,**/*.vhi,**/*.vho,**/*.vhs,**/*.vht,**/*.vhw,**/*.view.lkml,**/*.vim,**/*.volt,**/*.vrx,**/*.vsh,**/*.vshader,**/*.w,**/*.watchr,**/*.webidl,**/*.wisp,**/*.wl,**/*.wlt,**/*.wlua,**/*.wsgi,**/*.x,**/*.x10,**/*.xc,**/*.xi,**/*.xm,**/*.xojo_code,**/*.xojo_menu,**/*.xojo_report,**/*.xojo_script,**/*.xojo_toolbar,**/*.xojo_window,**/*.xpl,**/*.xproc,**/*.xpy,**/*.xq,**/*.xql,**/*.xqm,**/*.xquery,**/*.xqy,**/*.xrl,**/*.xs,**/*.xsjs,**/*.xsjslib,**/*.xsl,**/*.xslt,**/*.xsp-config,**/*.xsp.metadata,**/*.xtend,**/*.y,**/*.yacc,**/*.yap,**/*.yrl,**/*.yy,**/*.zep,**/*.zimpl,**/*.zmpl,**/*.zpl,**/*.zsh
+[INFO] [2022-12-22 20:22:18,913 -0300[ - Excluded file types: **/.*,**/node_modules,**/src/test,**/testdata,**/*sources.jar,**/*javadoc.jar
+[INFO] [2022-12-22 20:22:18,921 -0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2022-12-22 20:22:18,929 -0300[ - Scanning C:\whitesource\Projects\vulpy-master
+[DEBUG] [2022-12-22 20:22:18,953 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\payloads\hello.html
+[DEBUG] [2022-12-22 20:22:18,961 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\csp.html
+[DEBUG] [2022-12-22 20:22:18,962 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\footer.html
+[DEBUG] [2022-12-22 20:22:18,963 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\head.html
+[DEBUG] [2022-12-22 20:22:18,964 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\messages.html
+[DEBUG] [2022-12-22 20:22:18,965 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\mfa.disable.html
+[DEBUG] [2022-12-22 20:22:18,965 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\mfa.enable.html
+[DEBUG] [2022-12-22 20:22:18,966 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\navbar.html
+[DEBUG] [2022-12-22 20:22:18,970 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\posts.view.html
+[DEBUG] [2022-12-22 20:22:18,971 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\user.chpasswd.html
+[DEBUG] [2022-12-22 20:22:18,971 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\user.create.html
+[DEBUG] [2022-12-22 20:22:18,972 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\user.login.html
+[DEBUG] [2022-12-22 20:22:18,972 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\user.login.mfa.html
+[DEBUG] [2022-12-22 20:22:18,972 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\welcome.html
+[DEBUG] [2022-12-22 20:22:18,976 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\payloads\hello.html
+[DEBUG] [2022-12-22 20:22:18,979 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\csp.html
+[DEBUG] [2022-12-22 20:22:18,979 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\footer.html
+[DEBUG] [2022-12-22 20:22:18,980 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\head.html
+[DEBUG] [2022-12-22 20:22:18,980 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\messages.html
+[DEBUG] [2022-12-22 20:22:18,981 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\mfa.disable.html
+[DEBUG] [2022-12-22 20:22:18,981 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\mfa.enable.html
+[DEBUG] [2022-12-22 20:22:18,981 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\navbar.html
+[DEBUG] [2022-12-22 20:22:18,982 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\posts.view.html
+[DEBUG] [2022-12-22 20:22:18,989 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\user.chpasswd.html
+[DEBUG] [2022-12-22 20:22:18,989 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\user.create.html
+[DEBUG] [2022-12-22 20:22:18,990 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\user.login.html
+[DEBUG] [2022-12-22 20:22:18,990 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\user.login.mfa.html
+[DEBUG] [2022-12-22 20:22:18,991 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\welcome.html
+[DEBUG] [2022-12-22 20:22:18,992 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\requirements.txt
+[INFO] [2022-12-22 20:22:18,999 -0300[ - Attempting to resolve dependencies
+[INFO] [2022-12-22 20:22:18,999 -0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2022-12-22 20:22:19,029 -0300[ - FilesFrom: PipDependencyResolver, Dependency file found location: C:\whitesource\Projects\vulpy-master\requirements.txt
+[DEBUG] [2022-12-22 20:22:19,034 -0300[ - top folders found:
+[DEBUG] [2022-12-22 20:22:19,035 -0300[ - +- C:\whitesource\Projects\vulpy-master
+[DEBUG] [2022-12-22 20:22:19,036 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\requirements.txt
+[DEBUG] [2022-12-22 20:22:19,038 -0300[ - Finishing reduce dependencies
+[INFO] [2022-12-22 20:22:19,039 -0300[ - Trying to resolve PIP dependencies
+[DEBUG] [2022-12-22 20:22:19,056 -0300[ - Command - executeProcess - timeout set to 3600s
+[DEBUG] [2022-12-22 20:22:19,058 -0300[ - Command - executeProcess - start execute command 'cmd /c pip -V' in '.'
+[DEBUG] [2022-12-22 20:22:19,721 -0300[ - Command result output lines for 'cmd /c pip -V':
+[DEBUG] [2022-12-22 20:22:19,721 -0300[ - Read line #1: pip 22.3.1 from C:\Program Files\Python39\lib\site-packages\pip (python 3.9)
+[INFO] [2022-12-22 20:22:19,723 -0300[ - pip -V result : pip 22.3.1 from C:\Program Files\Python39\lib\site-packages\pip (python 3.9)
+[DEBUG] [2022-12-22 20:22:19,724 -0300[ - Command - executeProcess - timeout set to 3600s
+[DEBUG] [2022-12-22 20:22:19,725 -0300[ - Command - executeProcess - start execute command 'cmd /c pip -V' in '.'
+[DEBUG] [2022-12-22 20:22:20,271 -0300[ - Command result output lines for 'cmd /c pip -V':
+[DEBUG] [2022-12-22 20:22:20,272 -0300[ - Read line #1: pip 22.3.1 from C:\Program Files\Python39\lib\site-packages\pip (python 3.9)
+[INFO] [2022-12-22 20:22:20,275 -0300[ - python -m pip -V result : pip 22.3.1 from C:\Program Files\Python39\lib\site-packages\pip (python 3.9)
+[DEBUG] [2022-12-22 20:22:20,275 -0300[ - PIP installation status: true
+[DEBUG] [2022-12-22 20:22:20,275 -0300[ - The command was run under C:\whitesource\Projects\vulpy-master\.
+[INFO] [2022-12-22 20:22:20,275 -0300[ - topFolder = C:\whitesource\Projects\vulpy-master
+[DEBUG] [2022-12-22 20:22:20,276 -0300[ - topFolder = C:\whitesource\Projects\vulpy-master
+[INFO] [2022-12-22 20:22:20,276 -0300[ - Start resolving python dependencies with pip resolver
+[DEBUG] [2022-12-22 20:22:20,278 -0300[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2022-12-22 20:22:20,278 -0300[ - Command - executeProcess - start execute command 'cmd /c python -m virtualenv --version' in 'C:\whitesource\Projects\vulpy-master'
+[DEBUG] [2022-12-22 20:22:20,555 -0300[ - Command result output lines for 'cmd /c python -m virtualenv --version':
+[DEBUG] [2022-12-22 20:22:20,556 -0300[ - Read line #1: virtualenv 20.16.5 from C:\Program Files\Python39\lib\site-packages\virtualenv\__init__.py
+[DEBUG] [2022-12-22 20:22:20,559 -0300[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2022-12-22 20:22:20,559 -0300[ - Command - executeProcess - start execute command 'cmd /c python -m virtualenv C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\202212222022181/env' in 'C:\whitesource\Projects\vulpy-master'
+[DEBUG] [2022-12-22 20:22:22,917 -0300[ - Command result output lines for 'cmd /c python -m virtualenv C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\202212222022181/env':
+[DEBUG] [2022-12-22 20:22:22,917 -0300[ - Read line #1: created virtual environment CPython3.9.2.final.0-64 in 2102ms
+[DEBUG] [2022-12-22 20:22:22,920 -0300[ - Read line #2:   creator CPython3Windows(dest=C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\202212222022181\env, clear=False, no_vcs_ignore=False, global=False)
+[DEBUG] [2022-12-22 20:22:22,920 -0300[ - Read line #3:   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\Nova8\AppData\Local\pypa\virtualenv)
+[DEBUG] [2022-12-22 20:22:22,921 -0300[ - Read line #4:     added seed packages: pip==22.3.1, setuptools==65.6.3, wheel==0.38.4
+[DEBUG] [2022-12-22 20:22:22,922 -0300[ - Read line #5:   activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+[DEBUG] [2022-12-22 20:22:22,923 -0300[ - Collecting python dependencies. It might take a few minutes.
+[DEBUG] [2022-12-22 20:22:22,924 -0300[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2022-12-22 20:22:22,924 -0300[ - Command - executeProcess - start execute command 'cmd /c pip download -r C:\whitesource\Projects\vulpy-master\requirements.txt -d C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218 --src C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202222' in 'C:\whitesource\Projects\vulpy-master'
+[DEBUG] [2022-12-22 20:22:28,894 -0300[ - Command result output lines for 'cmd /c pip download -r C:\whitesource\Projects\vulpy-master\requirements.txt -d C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218 --src C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202222':
+[DEBUG] [2022-12-22 20:22:28,894 -0300[ - Read line #1: Collecting click
+[DEBUG] [2022-12-22 20:22:28,899 -0300[ - Read line #2:   Using cached click-8.1.3-py3-none-any.whl (96 kB)
+[DEBUG] [2022-12-22 20:22:28,899 -0300[ - Read line #3: Collecting cryptography
+[DEBUG] [2022-12-22 20:22:28,899 -0300[ - Read line #4:   Using cached cryptography-38.0.4-cp36-abi3-win_amd64.whl (2.4 MB)
+[DEBUG] [2022-12-22 20:22:28,899 -0300[ - Read line #5: Collecting Flask
+[DEBUG] [2022-12-22 20:22:28,899 -0300[ - Read line #6:   Using cached Flask-2.2.2-py3-none-any.whl (101 kB)
+[DEBUG] [2022-12-22 20:22:28,899 -0300[ - Read line #7: Collecting geoip2
+[DEBUG] [2022-12-22 20:22:28,899 -0300[ - Read line #8:   Using cached geoip2-4.6.0-py2.py3-none-any.whl (26 kB)
+[DEBUG] [2022-12-22 20:22:28,900 -0300[ - Read line #9: Collecting jsonschema
+[DEBUG] [2022-12-22 20:22:28,901 -0300[ - Read line #10:   Using cached jsonschema-4.17.3-py3-none-any.whl (90 kB)
+[DEBUG] [2022-12-22 20:22:28,901 -0300[ - Read line #11: Collecting PyJWT
+[DEBUG] [2022-12-22 20:22:28,901 -0300[ - Read line #12:   Using cached PyJWT-2.6.0-py3-none-any.whl (20 kB)
+[DEBUG] [2022-12-22 20:22:28,901 -0300[ - Read line #13: Collecting pyotp
+[DEBUG] [2022-12-22 20:22:28,902 -0300[ - Read line #14:   Using cached pyotp-2.8.0-py3-none-any.whl (12 kB)
+[DEBUG] [2022-12-22 20:22:28,903 -0300[ - Read line #15: Collecting qrcode
+[DEBUG] [2022-12-22 20:22:28,903 -0300[ - Read line #16:   Using cached qrcode-7.3.1.tar.gz (43 kB)
+[DEBUG] [2022-12-22 20:22:28,904 -0300[ - Read line #17:   Preparing metadata (setup.py): started
+[DEBUG] [2022-12-22 20:22:28,904 -0300[ - Read line #18:   Preparing metadata (setup.py): finished with status 'done'
+[DEBUG] [2022-12-22 20:22:28,904 -0300[ - Read line #19: Collecting requests
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #20:   Using cached requests-2.28.1-py3-none-any.whl (62 kB)
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #21: Collecting colorama
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #22:   Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #23: Collecting cffi>=1.12
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #24:   Using cached cffi-1.15.1-cp39-cp39-win_amd64.whl (179 kB)
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #25: Collecting Jinja2>=3.0
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #26:   Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #27: Collecting importlib-metadata>=3.6.0
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #28:   Using cached importlib_metadata-5.2.0-py3-none-any.whl (21 kB)
+[DEBUG] [2022-12-22 20:22:28,905 -0300[ - Read line #29: Collecting itsdangerous>=2.0
+[DEBUG] [2022-12-22 20:22:28,906 -0300[ - Read line #30:   Using cached itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+[DEBUG] [2022-12-22 20:22:28,906 -0300[ - Read line #31: Collecting Werkzeug>=2.2.2
+[DEBUG] [2022-12-22 20:22:28,906 -0300[ - Read line #32:   Using cached Werkzeug-2.2.2-py3-none-any.whl (232 kB)
+[DEBUG] [2022-12-22 20:22:28,907 -0300[ - Read line #33: Collecting aiohttp<4.0.0,>=3.6.2
+[DEBUG] [2022-12-22 20:22:28,907 -0300[ - Read line #34:   Using cached aiohttp-3.8.3-cp39-cp39-win_amd64.whl (323 kB)
+[DEBUG] [2022-12-22 20:22:28,907 -0300[ - Read line #35: Collecting urllib3<2.0.0,>=1.25.2
+[DEBUG] [2022-12-22 20:22:28,907 -0300[ - Read line #36:   Using cached urllib3-1.26.13-py2.py3-none-any.whl (140 kB)
+[DEBUG] [2022-12-22 20:22:28,907 -0300[ - Read line #37: Collecting maxminddb<3.0.0,>=2.2.0
+[DEBUG] [2022-12-22 20:22:28,907 -0300[ - Read line #38:   Using cached maxminddb-2.2.0.tar.gz (330 kB)
+[DEBUG] [2022-12-22 20:22:28,907 -0300[ - Read line #39:   Preparing metadata (setup.py): started
+[DEBUG] [2022-12-22 20:22:28,908 -0300[ - Read line #40:   Preparing metadata (setup.py): finished with status 'done'
+[DEBUG] [2022-12-22 20:22:28,908 -0300[ - Read line #41: Collecting attrs>=17.4.0
+[DEBUG] [2022-12-22 20:22:28,908 -0300[ - Read line #42:   Using cached attrs-22.2.0-py3-none-any.whl (60 kB)
+[DEBUG] [2022-12-22 20:22:28,908 -0300[ - Read line #43: Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+[DEBUG] [2022-12-22 20:22:28,908 -0300[ - Read line #44:   Using cached pyrsistent-0.19.2-cp39-cp39-win_amd64.whl (62 kB)
+[DEBUG] [2022-12-22 20:22:28,908 -0300[ - Read line #45: Collecting idna<4,>=2.5
+[DEBUG] [2022-12-22 20:22:28,908 -0300[ - Read line #46:   Using cached idna-3.4-py3-none-any.whl (61 kB)
+[DEBUG] [2022-12-22 20:22:28,908 -0300[ - Read line #47: Collecting certifi>=2017.4.17
+[DEBUG] [2022-12-22 20:22:28,909 -0300[ - Read line #48:   Using cached certifi-2022.12.7-py3-none-any.whl (155 kB)
+[DEBUG] [2022-12-22 20:22:28,909 -0300[ - Read line #49: Collecting charset-normalizer<3,>=2
+[DEBUG] [2022-12-22 20:22:28,909 -0300[ - Read line #50:   Using cached charset_normalizer-2.1.1-py3-none-any.whl (39 kB)
+[DEBUG] [2022-12-22 20:22:28,909 -0300[ - Read line #51: Collecting frozenlist>=1.1.1
+[DEBUG] [2022-12-22 20:22:28,910 -0300[ - Read line #52:   Using cached frozenlist-1.3.3-cp39-cp39-win_amd64.whl (34 kB)
+[DEBUG] [2022-12-22 20:22:28,910 -0300[ - Read line #53: Collecting multidict<7.0,>=4.5
+[DEBUG] [2022-12-22 20:22:28,910 -0300[ - Read line #54:   Using cached multidict-6.0.3-cp39-cp39-win_amd64.whl (28 kB)
+[DEBUG] [2022-12-22 20:22:28,910 -0300[ - Read line #55: Collecting yarl<2.0,>=1.0
+[DEBUG] [2022-12-22 20:22:28,910 -0300[ - Read line #56:   Using cached yarl-1.8.2-cp39-cp39-win_amd64.whl (56 kB)
+[DEBUG] [2022-12-22 20:22:28,910 -0300[ - Read line #57: Collecting aiosignal>=1.1.2
+[DEBUG] [2022-12-22 20:22:28,910 -0300[ - Read line #58:   Using cached aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+[DEBUG] [2022-12-22 20:22:28,911 -0300[ - Read line #59: Collecting async-timeout<5.0,>=4.0.0a3
+[DEBUG] [2022-12-22 20:22:28,911 -0300[ - Read line #60:   Using cached async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
+[DEBUG] [2022-12-22 20:22:28,911 -0300[ - Read line #61: Collecting pycparser
+[DEBUG] [2022-12-22 20:22:28,911 -0300[ - Read line #62:   Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+[DEBUG] [2022-12-22 20:22:28,911 -0300[ - Read line #63: Collecting zipp>=0.5
+[DEBUG] [2022-12-22 20:22:28,911 -0300[ - Read line #64:   Using cached zipp-3.11.0-py3-none-any.whl (6.6 kB)
+[DEBUG] [2022-12-22 20:22:28,912 -0300[ - Read line #65: Collecting MarkupSafe>=2.0
+[DEBUG] [2022-12-22 20:22:28,912 -0300[ - Read line #66:   Using cached MarkupSafe-2.1.1-cp39-cp39-win_amd64.whl (17 kB)
+[DEBUG] [2022-12-22 20:22:28,912 -0300[ - Read line #67: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\click-8.1.3-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,912 -0300[ - Read line #68: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\cryptography-38.0.4-cp36-abi3-win_amd64.whl
+[DEBUG] [2022-12-22 20:22:28,912 -0300[ - Read line #69: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\flask-2.2.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,913 -0300[ - Read line #70: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\geoip2-4.6.0-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,913 -0300[ - Read line #71: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\jsonschema-4.17.3-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,913 -0300[ - Read line #72: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\pyjwt-2.6.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,914 -0300[ - Read line #73: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\pyotp-2.8.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,914 -0300[ - Read line #74: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\qrcode-7.3.1.tar.gz
+[DEBUG] [2022-12-22 20:22:28,914 -0300[ - Read line #75: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\requests-2.28.1-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,914 -0300[ - Read line #76: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\aiohttp-3.8.3-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:22:28,915 -0300[ - Read line #77: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\attrs-22.2.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,915 -0300[ - Read line #78: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\certifi-2022.12.7-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,915 -0300[ - Read line #79: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\cffi-1.15.1-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:22:28,915 -0300[ - Read line #80: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\charset_normalizer-2.1.1-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,915 -0300[ - Read line #81: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\idna-3.4-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,915 -0300[ - Read line #82: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\importlib_metadata-5.2.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,915 -0300[ - Read line #83: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\itsdangerous-2.1.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,915 -0300[ - Read line #84: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\jinja2-3.1.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,916 -0300[ - Read line #85: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\maxminddb-2.2.0.tar.gz
+[DEBUG] [2022-12-22 20:22:28,916 -0300[ - Read line #86: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\pyrsistent-0.19.2-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:22:28,916 -0300[ - Read line #87: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\urllib3-1.26.13-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,916 -0300[ - Read line #88: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\werkzeug-2.2.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,916 -0300[ - Read line #89: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\colorama-0.4.6-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,916 -0300[ - Read line #90: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\aiosignal-1.3.1-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,917 -0300[ - Read line #91: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\async_timeout-4.0.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,917 -0300[ - Read line #92: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\frozenlist-1.3.3-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:22:28,917 -0300[ - Read line #93: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\markupsafe-2.1.1-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:22:28,917 -0300[ - Read line #94: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\multidict-6.0.3-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:22:28,918 -0300[ - Read line #95: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\yarl-1.8.2-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:22:28,918 -0300[ - Read line #96: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\zipp-3.11.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,919 -0300[ - Read line #97: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq\20221222202218\pycparser-2.21-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:22:28,919 -0300[ - Read line #98: Successfully downloaded click cryptography Flask geoip2 jsonschema PyJWT pyotp qrcode requests aiohttp attrs certifi cffi charset-normalizer idna importlib-metadata itsdangerous Jinja2 maxminddb pyrsistent urllib3 Werkzeug colorama aiosignal async-timeout frozenlist MarkupSafe multidict yarl zipp pycparser
+[DEBUG] [2022-12-22 20:22:28,923 -0300[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2022-12-22 20:22:28,930 -0300[ - Command - executeProcess - start execute command 'cmd /c C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\202212222022181\env\Scripts\activate.bat && pip install -r C:\whitesource\Projects\vulpy-master\requirements.txt -f C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218 && pip install pipdeptree && pipdeptree --json > C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\202212222022181\HierarchyTree.txt' in 'C:\whitesource\Projects\vulpy-master'
+[DEBUG] [2022-12-22 20:23:21,838 -0300[ - Command result output lines for 'cmd /c C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\202212222022181\env\Scripts\activate.bat && pip install -r C:\whitesource\Projects\vulpy-master\requirements.txt -f C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218 && pip install pipdeptree && pipdeptree --json > C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\202212222022181\HierarchyTree.txt':
+[DEBUG] [2022-12-22 20:23:21,839 -0300[ - Read line #1: Looking in links: c:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218
+[DEBUG] [2022-12-22 20:23:21,846 -0300[ - Read line #2: Collecting click
+[DEBUG] [2022-12-22 20:23:21,847 -0300[ - Read line #3:   Using cached click-8.1.3-py3-none-any.whl (96 kB)
+[DEBUG] [2022-12-22 20:23:21,847 -0300[ - Read line #4: Collecting cryptography
+[DEBUG] [2022-12-22 20:23:21,847 -0300[ - Read line #5:   Using cached cryptography-38.0.4-cp36-abi3-win_amd64.whl (2.4 MB)
+[DEBUG] [2022-12-22 20:23:21,847 -0300[ - Read line #6: Collecting Flask
+[DEBUG] [2022-12-22 20:23:21,847 -0300[ - Read line #7:   Using cached Flask-2.2.2-py3-none-any.whl (101 kB)
+[DEBUG] [2022-12-22 20:23:21,847 -0300[ - Read line #8: Collecting geoip2
+[DEBUG] [2022-12-22 20:23:21,847 -0300[ - Read line #9:   Using cached geoip2-4.6.0-py2.py3-none-any.whl (26 kB)
+[DEBUG] [2022-12-22 20:23:21,847 -0300[ - Read line #10: Collecting jsonschema
+[DEBUG] [2022-12-22 20:23:21,847 -0300[ - Read line #11:   Using cached jsonschema-4.17.3-py3-none-any.whl (90 kB)
+[DEBUG] [2022-12-22 20:23:21,848 -0300[ - Read line #12: Collecting PyJWT
+[DEBUG] [2022-12-22 20:23:21,849 -0300[ - Read line #13:   Using cached PyJWT-2.6.0-py3-none-any.whl (20 kB)
+[DEBUG] [2022-12-22 20:23:21,849 -0300[ - Read line #14: Collecting pyotp
+[DEBUG] [2022-12-22 20:23:21,850 -0300[ - Read line #15:   Using cached pyotp-2.8.0-py3-none-any.whl (12 kB)
+[DEBUG] [2022-12-22 20:23:21,850 -0300[ - Read line #16: Collecting qrcode
+[DEBUG] [2022-12-22 20:23:21,850 -0300[ - Read line #17:   Using cached qrcode-7.3.1-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,850 -0300[ - Read line #18: Collecting requests
+[DEBUG] [2022-12-22 20:23:21,850 -0300[ - Read line #19:   Using cached requests-2.28.1-py3-none-any.whl (62 kB)
+[DEBUG] [2022-12-22 20:23:21,850 -0300[ - Read line #20: Collecting colorama
+[DEBUG] [2022-12-22 20:23:21,851 -0300[ - Read line #21:   Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+[DEBUG] [2022-12-22 20:23:21,851 -0300[ - Read line #22: Collecting cffi>=1.12
+[DEBUG] [2022-12-22 20:23:21,851 -0300[ - Read line #23:   Using cached cffi-1.15.1-cp39-cp39-win_amd64.whl (179 kB)
+[DEBUG] [2022-12-22 20:23:21,851 -0300[ - Read line #24: Collecting importlib-metadata>=3.6.0
+[DEBUG] [2022-12-22 20:23:21,851 -0300[ - Read line #25:   Using cached importlib_metadata-5.2.0-py3-none-any.whl (21 kB)
+[DEBUG] [2022-12-22 20:23:21,852 -0300[ - Read line #26: Collecting itsdangerous>=2.0
+[DEBUG] [2022-12-22 20:23:21,852 -0300[ - Read line #27:   Using cached itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+[DEBUG] [2022-12-22 20:23:21,852 -0300[ - Read line #28: Collecting Jinja2>=3.0
+[DEBUG] [2022-12-22 20:23:21,852 -0300[ - Read line #29:   Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+[DEBUG] [2022-12-22 20:23:21,852 -0300[ - Read line #30: Collecting Werkzeug>=2.2.2
+[DEBUG] [2022-12-22 20:23:21,852 -0300[ - Read line #31:   Using cached Werkzeug-2.2.2-py3-none-any.whl (232 kB)
+[DEBUG] [2022-12-22 20:23:21,853 -0300[ - Read line #32: Collecting maxminddb<3.0.0,>=2.2.0
+[DEBUG] [2022-12-22 20:23:21,853 -0300[ - Read line #33:   Using cached maxminddb-2.2.0-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,853 -0300[ - Read line #34: Collecting urllib3<2.0.0,>=1.25.2
+[DEBUG] [2022-12-22 20:23:21,853 -0300[ - Read line #35:   Using cached urllib3-1.26.13-py2.py3-none-any.whl (140 kB)
+[DEBUG] [2022-12-22 20:23:21,853 -0300[ - Read line #36: Collecting aiohttp<4.0.0,>=3.6.2
+[DEBUG] [2022-12-22 20:23:21,854 -0300[ - Read line #37:   Using cached aiohttp-3.8.3-cp39-cp39-win_amd64.whl (323 kB)
+[DEBUG] [2022-12-22 20:23:21,855 -0300[ - Read line #38: Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+[DEBUG] [2022-12-22 20:23:21,864 -0300[ - Read line #39:   Using cached pyrsistent-0.19.2-cp39-cp39-win_amd64.whl (62 kB)
+[DEBUG] [2022-12-22 20:23:21,865 -0300[ - Read line #40: Collecting attrs>=17.4.0
+[DEBUG] [2022-12-22 20:23:21,865 -0300[ - Read line #41:   Using cached attrs-22.2.0-py3-none-any.whl (60 kB)
+[DEBUG] [2022-12-22 20:23:21,865 -0300[ - Read line #42: Collecting idna<4,>=2.5
+[DEBUG] [2022-12-22 20:23:21,865 -0300[ - Read line #43:   Using cached idna-3.4-py3-none-any.whl (61 kB)
+[DEBUG] [2022-12-22 20:23:21,866 -0300[ - Read line #44: Collecting charset-normalizer<3,>=2
+[DEBUG] [2022-12-22 20:23:21,866 -0300[ - Read line #45:   Using cached charset_normalizer-2.1.1-py3-none-any.whl (39 kB)
+[DEBUG] [2022-12-22 20:23:21,866 -0300[ - Read line #46: Collecting certifi>=2017.4.17
+[DEBUG] [2022-12-22 20:23:21,867 -0300[ - Read line #47:   Using cached certifi-2022.12.7-py3-none-any.whl (155 kB)
+[DEBUG] [2022-12-22 20:23:21,867 -0300[ - Read line #48: Collecting yarl<2.0,>=1.0
+[DEBUG] [2022-12-22 20:23:21,867 -0300[ - Read line #49:   Using cached yarl-1.8.2-cp39-cp39-win_amd64.whl (56 kB)
+[DEBUG] [2022-12-22 20:23:21,867 -0300[ - Read line #50: Collecting multidict<7.0,>=4.5
+[DEBUG] [2022-12-22 20:23:21,868 -0300[ - Read line #51:   Using cached multidict-6.0.3-cp39-cp39-win_amd64.whl (28 kB)
+[DEBUG] [2022-12-22 20:23:21,868 -0300[ - Read line #52: Collecting async-timeout<5.0,>=4.0.0a3
+[DEBUG] [2022-12-22 20:23:21,868 -0300[ - Read line #53:   Using cached async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
+[DEBUG] [2022-12-22 20:23:21,868 -0300[ - Read line #54: Collecting frozenlist>=1.1.1
+[DEBUG] [2022-12-22 20:23:21,868 -0300[ - Read line #55:   Using cached frozenlist-1.3.3-cp39-cp39-win_amd64.whl (34 kB)
+[DEBUG] [2022-12-22 20:23:21,869 -0300[ - Read line #56: Collecting aiosignal>=1.1.2
+[DEBUG] [2022-12-22 20:23:21,869 -0300[ - Read line #57:   Using cached aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+[DEBUG] [2022-12-22 20:23:21,869 -0300[ - Read line #58: Collecting pycparser
+[DEBUG] [2022-12-22 20:23:21,869 -0300[ - Read line #59:   Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+[DEBUG] [2022-12-22 20:23:21,870 -0300[ - Read line #60: Collecting zipp>=0.5
+[DEBUG] [2022-12-22 20:23:21,871 -0300[ - Read line #61:   Using cached zipp-3.11.0-py3-none-any.whl (6.6 kB)
+[DEBUG] [2022-12-22 20:23:21,872 -0300[ - Read line #62: Collecting MarkupSafe>=2.0
+[DEBUG] [2022-12-22 20:23:21,872 -0300[ - Read line #63:   Using cached MarkupSafe-2.1.1-cp39-cp39-win_amd64.whl (17 kB)
+[DEBUG] [2022-12-22 20:23:21,872 -0300[ - Read line #64: Installing collected packages: zipp, urllib3, pyrsistent, pyotp, PyJWT, pycparser, multidict, maxminddb, MarkupSafe, itsdangerous, idna, frozenlist, colorama, charset-normalizer, certifi, attrs, async-timeout, yarl, Werkzeug, requests, qrcode, jsonschema, Jinja2, importlib-metadata, click, cffi, aiosignal, Flask, cryptography, aiohttp, geoip2
+[DEBUG] [2022-12-22 20:23:21,873 -0300[ - Read line #65: Successfully installed Flask-2.2.2 Jinja2-3.1.2 MarkupSafe-2.1.1 PyJWT-2.6.0 Werkzeug-2.2.2 aiohttp-3.8.3 aiosignal-1.3.1 async-timeout-4.0.2 attrs-22.2.0 certifi-2022.12.7 cffi-1.15.1 charset-normalizer-2.1.1 click-8.1.3 colorama-0.4.6 cryptography-38.0.4 frozenlist-1.3.3 geoip2-4.6.0 idna-3.4 importlib-metadata-5.2.0 itsdangerous-2.1.2 jsonschema-4.17.3 maxminddb-2.2.0 multidict-6.0.3 pycparser-2.21 pyotp-2.8.0 pyrsistent-0.19.2 qrcode-7.3.1 requests-2.28.1 urllib3-1.26.13 yarl-1.8.2 zipp-3.11.0
+[DEBUG] [2022-12-22 20:23:21,873 -0300[ - Read line #66: Collecting pipdeptree
+[DEBUG] [2022-12-22 20:23:21,873 -0300[ - Read line #67:   Using cached pipdeptree-2.3.3-py3-none-any.whl (16 kB)
+[DEBUG] [2022-12-22 20:23:21,874 -0300[ - Read line #68: Installing collected packages: pipdeptree
+[DEBUG] [2022-12-22 20:23:21,874 -0300[ - Read line #69: Successfully installed pipdeptree-2.3.3
+[DEBUG] [2022-12-22 20:23:21,902 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\aiohttp-3.8.3-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:23:21,903 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\aiosignal-1.3.1-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,904 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\async_timeout-4.0.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,904 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\attrs-22.2.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,905 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\certifi-2022.12.7-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,905 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\cffi-1.15.1-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:23:21,905 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\charset_normalizer-2.1.1-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,906 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\click-8.1.3-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,906 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\colorama-0.4.6-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,907 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\cryptography-38.0.4-cp36-abi3-win_amd64.whl
+[DEBUG] [2022-12-22 20:23:21,907 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\Flask-2.2.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,907 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\frozenlist-1.3.3-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:23:21,907 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\geoip2-4.6.0-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,908 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\idna-3.4-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,909 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\importlib_metadata-5.2.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,909 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\itsdangerous-2.1.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,909 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\Jinja2-3.1.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,910 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\jsonschema-4.17.3-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,910 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\MarkupSafe-2.1.1-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:23:21,910 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\maxminddb-2.2.0.tar.gz
+[DEBUG] [2022-12-22 20:23:21,910 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\multidict-6.0.3-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:23:21,910 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\pycparser-2.21-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,911 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\PyJWT-2.6.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,912 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\pyotp-2.8.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,912 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\pyrsistent-0.19.2-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:23:21,912 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\qrcode-7.3.1.tar.gz
+[DEBUG] [2022-12-22 20:23:21,912 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\requests-2.28.1-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,913 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\urllib3-1.26.13-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,913 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\Werkzeug-2.2.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:21,914 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\yarl-1.8.2-cp39-cp39-win_amd64.whl
+[DEBUG] [2022-12-22 20:23:21,914 -0300[ - Dependency file found location: C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ\20221222202218\zipp-3.11.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:22,005 -0300[ - Trying to get all the direct dependencies.
+[DEBUG] [2022-12-22 20:23:22,010 -0300[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2022-12-22 20:23:22,012 -0300[ - Command - executeProcess - start execute command 'cmd /c pip download -r C:\whitesource\Projects\vulpy-master\requirements.txt --no-deps -d C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ_direct\20221222202322' in 'C:\whitesource\Projects\vulpy-master'
+[DEBUG] [2022-12-22 20:23:24,897 -0300[ - Command result output lines for 'cmd /c pip download -r C:\whitesource\Projects\vulpy-master\requirements.txt --no-deps -d C:\Users\Nova8\AppData\Local\Temp\ws-ua_20221222202217_CUISGQ\python_NNUAYQ_direct\20221222202322':
+[DEBUG] [2022-12-22 20:23:24,898 -0300[ - Read line #1: Collecting click
+[DEBUG] [2022-12-22 20:23:24,901 -0300[ - Read line #2:   Using cached click-8.1.3-py3-none-any.whl (96 kB)
+[DEBUG] [2022-12-22 20:23:24,901 -0300[ - Read line #3: Collecting cryptography
+[DEBUG] [2022-12-22 20:23:24,901 -0300[ - Read line #4:   Using cached cryptography-38.0.4-cp36-abi3-win_amd64.whl (2.4 MB)
+[DEBUG] [2022-12-22 20:23:24,901 -0300[ - Read line #5: Collecting Flask
+[DEBUG] [2022-12-22 20:23:24,901 -0300[ - Read line #6:   Using cached Flask-2.2.2-py3-none-any.whl (101 kB)
+[DEBUG] [2022-12-22 20:23:24,901 -0300[ - Read line #7: Collecting geoip2
+[DEBUG] [2022-12-22 20:23:24,901 -0300[ - Read line #8:   Using cached geoip2-4.6.0-py2.py3-none-any.whl (26 kB)
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #9: Collecting jsonschema
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #10:   Using cached jsonschema-4.17.3-py3-none-any.whl (90 kB)
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #11: Collecting PyJWT
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #12:   Using cached PyJWT-2.6.0-py3-none-any.whl (20 kB)
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #13: Collecting pyotp
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #14:   Using cached pyotp-2.8.0-py3-none-any.whl (12 kB)
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #15: Collecting qrcode
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #16:   Using cached qrcode-7.3.1.tar.gz (43 kB)
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #17:   Preparing metadata (setup.py): started
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #18:   Preparing metadata (setup.py): finished with status 'done'
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #19: Collecting requests
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #20:   Using cached requests-2.28.1-py3-none-any.whl (62 kB)
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #21: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq_direct\20221222202322\click-8.1.3-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #22: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq_direct\20221222202322\cryptography-38.0.4-cp36-abi3-win_amd64.whl
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #23: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq_direct\20221222202322\flask-2.2.2-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #24: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq_direct\20221222202322\geoip2-4.6.0-py2.py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #25: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq_direct\20221222202322\jsonschema-4.17.3-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:24,902 -0300[ - Read line #26: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq_direct\20221222202322\pyjwt-2.6.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:24,903 -0300[ - Read line #27: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq_direct\20221222202322\pyotp-2.8.0-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:24,904 -0300[ - Read line #28: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq_direct\20221222202322\qrcode-7.3.1.tar.gz
+[DEBUG] [2022-12-22 20:23:24,904 -0300[ - Read line #29: Saved c:\users\nova8\appdata\local\temp\ws-ua_20221222202217_cuisgq\python_nnuayq_direct\20221222202322\requests-2.28.1-py3-none-any.whl
+[DEBUG] [2022-12-22 20:23:24,904 -0300[ - Read line #30: Successfully downloaded click cryptography Flask geoip2 jsonschema PyJWT pyotp qrcode requests
+[DEBUG] [2022-12-22 20:23:24,913 -0300[ - DependencyResolutionService - get dependency count statistics
+[DEBUG] [2022-12-22 20:23:24,926 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\payloads\hello.html
+[DEBUG] [2022-12-22 20:23:24,927 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\csp.html
+[DEBUG] [2022-12-22 20:23:24,928 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\footer.html
+[DEBUG] [2022-12-22 20:23:24,928 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\head.html
+[DEBUG] [2022-12-22 20:23:24,928 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\messages.html
+[DEBUG] [2022-12-22 20:23:24,928 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\mfa.disable.html
+[DEBUG] [2022-12-22 20:23:24,928 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\mfa.enable.html
+[DEBUG] [2022-12-22 20:23:24,928 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\navbar.html
+[DEBUG] [2022-12-22 20:23:24,930 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\posts.view.html
+[DEBUG] [2022-12-22 20:23:24,930 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\user.chpasswd.html
+[DEBUG] [2022-12-22 20:23:24,930 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\user.create.html
+[DEBUG] [2022-12-22 20:23:24,931 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\user.login.html
+[DEBUG] [2022-12-22 20:23:24,931 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\user.login.mfa.html
+[DEBUG] [2022-12-22 20:23:24,931 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\templates\welcome.html
+[DEBUG] [2022-12-22 20:23:24,934 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\payloads\hello.html
+[DEBUG] [2022-12-22 20:23:24,936 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\csp.html
+[DEBUG] [2022-12-22 20:23:24,936 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\footer.html
+[DEBUG] [2022-12-22 20:23:24,936 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\head.html
+[DEBUG] [2022-12-22 20:23:24,937 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\messages.html
+[DEBUG] [2022-12-22 20:23:24,937 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\mfa.disable.html
+[DEBUG] [2022-12-22 20:23:24,937 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\mfa.enable.html
+[DEBUG] [2022-12-22 20:23:24,937 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\navbar.html
+[DEBUG] [2022-12-22 20:23:24,938 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\posts.view.html
+[DEBUG] [2022-12-22 20:23:24,938 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\user.chpasswd.html
+[DEBUG] [2022-12-22 20:23:24,938 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\user.create.html
+[DEBUG] [2022-12-22 20:23:24,938 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\user.login.html
+[DEBUG] [2022-12-22 20:23:24,938 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\user.login.mfa.html
+[DEBUG] [2022-12-22 20:23:24,939 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\templates\welcome.html
+[DEBUG] [2022-12-22 20:23:24,957 -0300[ - top folders found:
+[DEBUG] [2022-12-22 20:23:24,958 -0300[ - +- C:\whitesource\Projects\vulpy-master\bad\payloads
+[DEBUG] [2022-12-22 20:23:24,958 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\payloads\hello.html
+[DEBUG] [2022-12-22 20:23:24,959 -0300[ - +- C:\whitesource\Projects\vulpy-master\good\templates
+[DEBUG] [2022-12-22 20:23:24,959 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\csp.html
+[DEBUG] [2022-12-22 20:23:24,959 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\head.html
+[DEBUG] [2022-12-22 20:23:24,960 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\footer.html
+[DEBUG] [2022-12-22 20:23:24,960 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\navbar.html
+[DEBUG] [2022-12-22 20:23:24,960 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\welcome.html
+[DEBUG] [2022-12-22 20:23:24,960 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\messages.html
+[DEBUG] [2022-12-22 20:23:24,960 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\mfa.enable.html
+[DEBUG] [2022-12-22 20:23:24,960 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\user.login.html
+[DEBUG] [2022-12-22 20:23:24,960 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\posts.view.html
+[DEBUG] [2022-12-22 20:23:24,960 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\user.create.html
+[DEBUG] [2022-12-22 20:23:24,961 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\mfa.disable.html
+[DEBUG] [2022-12-22 20:23:24,961 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\user.chpasswd.html
+[DEBUG] [2022-12-22 20:23:24,961 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\templates\user.login.mfa.html
+[DEBUG] [2022-12-22 20:23:24,961 -0300[ - +- C:\whitesource\Projects\vulpy-master\bad\templates
+[DEBUG] [2022-12-22 20:23:24,961 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\csp.html
+[DEBUG] [2022-12-22 20:23:24,962 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\head.html
+[DEBUG] [2022-12-22 20:23:24,962 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\footer.html
+[DEBUG] [2022-12-22 20:23:24,962 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\navbar.html
+[DEBUG] [2022-12-22 20:23:24,962 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\welcome.html
+[DEBUG] [2022-12-22 20:23:24,962 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\messages.html
+[DEBUG] [2022-12-22 20:23:24,962 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\mfa.enable.html
+[DEBUG] [2022-12-22 20:23:24,962 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\user.login.html
+[DEBUG] [2022-12-22 20:23:24,963 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\posts.view.html
+[DEBUG] [2022-12-22 20:23:24,963 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\mfa.disable.html
+[DEBUG] [2022-12-22 20:23:24,963 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\user.create.html
+[DEBUG] [2022-12-22 20:23:24,963 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\user.chpasswd.html
+[DEBUG] [2022-12-22 20:23:24,963 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\bad\templates\user.login.mfa.html
+[DEBUG] [2022-12-22 20:23:24,963 -0300[ - +- C:\whitesource\Projects\vulpy-master\good\payloads
+[DEBUG] [2022-12-22 20:23:24,964 -0300[ - |  +- C:\whitesource\Projects\vulpy-master\good\payloads\hello.html
+[INFO] [2022-12-22 20:23:24,964 -0300[ - Trying to resolve HTML dependencies
+[DEBUG] [2022-12-22 20:23:24,964 -0300[ - HTML installation status: true
+[DEBUG] [2022-12-22 20:23:24,964 -0300[ - The command was run under C:\whitesource\Projects\vulpy-master\.
+[DEBUG] [2022-12-22 20:23:24,965 -0300[ - topFolder = C:\whitesource\Projects\vulpy-master\bad\payloads
+[DEBUG] [2022-12-22 20:23:24,969 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\payloads\hello.html
+[DEBUG] [2022-12-22 20:23:25,061 -0300[ - DependencyResolutionService - get dependency count statistics
+[DEBUG] [2022-12-22 20:23:25,061 -0300[ - topFolder = C:\whitesource\Projects\vulpy-master\good\templates
+[DEBUG] [2022-12-22 20:23:25,063 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\footer.html
+[DEBUG] [2022-12-22 20:23:25,065 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\user.login.mfa.html
+[DEBUG] [2022-12-22 20:23:25,068 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\csp.html
+[DEBUG] [2022-12-22 20:23:25,072 -0300[ - HTML Resolver - collectURLJsFile - START - scrUrl: https://apis.google.com/js/platform.js
+[DEBUG] [2022-12-22 20:23:26,059 -0300[ - HTML Resolver - collectURLJsFile - found URL: https://apis.google.com/js/platform.js
+[DEBUG] [2022-12-22 20:23:26,362 -0300[ - HTML Resolver - collectURLJsFile - END - status: true
+[DEBUG] [2022-12-22 20:23:26,363 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\welcome.html
+[DEBUG] [2022-12-22 20:23:26,367 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\mfa.enable.html
+[DEBUG] [2022-12-22 20:23:26,369 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\navbar.html
+[DEBUG] [2022-12-22 20:23:26,372 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\messages.html
+[DEBUG] [2022-12-22 20:23:26,374 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\user.login.html
+[DEBUG] [2022-12-22 20:23:26,377 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\user.chpasswd.html
+[DEBUG] [2022-12-22 20:23:26,379 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\posts.view.html
+[DEBUG] [2022-12-22 20:23:26,382 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\head.html
+[DEBUG] [2022-12-22 20:23:26,385 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\user.create.html
+[DEBUG] [2022-12-22 20:23:26,388 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\templates\mfa.disable.html
+[DEBUG] [2022-12-22 20:23:26,395 -0300[ - DependencyResolutionService - get dependency count statistics
+[DEBUG] [2022-12-22 20:23:26,395 -0300[ - topFolder = C:\whitesource\Projects\vulpy-master\bad\templates
+[DEBUG] [2022-12-22 20:23:26,395 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\csp.html
+[DEBUG] [2022-12-22 20:23:26,398 -0300[ - HTML Resolver - collectURLJsFile - START - scrUrl: https://apis.google.com/js/platform.js
+[DEBUG] [2022-12-22 20:23:26,491 -0300[ - HTML Resolver - collectURLJsFile - found URL: https://apis.google.com/js/platform.js
+[DEBUG] [2022-12-22 20:23:26,575 -0300[ - HTML Resolver - collectURLJsFile - END - status: true
+[DEBUG] [2022-12-22 20:23:26,576 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\messages.html
+[DEBUG] [2022-12-22 20:23:26,579 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\user.login.mfa.html
+[DEBUG] [2022-12-22 20:23:26,581 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\mfa.enable.html
+[DEBUG] [2022-12-22 20:23:26,584 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\mfa.disable.html
+[DEBUG] [2022-12-22 20:23:26,592 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\user.login.html
+[DEBUG] [2022-12-22 20:23:26,594 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\user.chpasswd.html
+[DEBUG] [2022-12-22 20:23:26,596 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\head.html
+[DEBUG] [2022-12-22 20:23:26,597 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\footer.html
+[DEBUG] [2022-12-22 20:23:26,599 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\user.create.html
+[DEBUG] [2022-12-22 20:23:26,601 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\welcome.html
+[DEBUG] [2022-12-22 20:23:26,604 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\navbar.html
+[DEBUG] [2022-12-22 20:23:26,608 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\bad\templates\posts.view.html
+[DEBUG] [2022-12-22 20:23:26,611 -0300[ - DependencyResolutionService - get dependency count statistics
+[DEBUG] [2022-12-22 20:23:26,611 -0300[ - topFolder = C:\whitesource\Projects\vulpy-master\good\payloads
+[DEBUG] [2022-12-22 20:23:26,611 -0300[ - HTML Resolver - resolveDependencies - HTML file: C:\whitesource\Projects\vulpy-master\good\payloads\hello.html
+[DEBUG] [2022-12-22 20:23:26,613 -0300[ - DependencyResolutionService - get dependency count statistics
+[INFO] [2022-12-22 20:23:26,613 -0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2022-12-22 20:23:26,615 -0300[ - total resolved projects =1
+[DEBUG] [2022-12-22 20:23:26,615 -0300[ - total resolved projects =1
+[DEBUG] [2022-12-22 20:23:26,615 -0300[ - total resolved projects =1
+[DEBUG] [2022-12-22 20:23:26,615 -0300[ - total resolved projects =1
+[DEBUG] [2022-12-22 20:23:26,615 -0300[ - total resolved projects =1
+[INFO] [2022-12-22 20:23:26,619 -0300[ - Scanning directories [C:\whitesource\Projects\vulpy-master] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2022-12-22 20:23:26,625 -0300[ - Scanning C:\whitesource\Projects\vulpy-master
+[DEBUG] [2022-12-22 20:23:26,651 -0300[ - File/Folder Excluded: bad\api_list.py
+[DEBUG] [2022-12-22 20:23:26,652 -0300[ - File/Folder Excluded: bad\api_post.py
+[DEBUG] [2022-12-22 20:23:26,653 -0300[ - File/Folder Excluded: bad\brute.py
+[DEBUG] [2022-12-22 20:23:26,657 -0300[ - File/Folder Excluded: bad\db.py
+[DEBUG] [2022-12-22 20:23:26,658 -0300[ - File/Folder Excluded: bad\db_init.py
+[DEBUG] [2022-12-22 20:23:26,659 -0300[ - File/Folder Excluded: bad\libapi.py
+[DEBUG] [2022-12-22 20:23:26,659 -0300[ - File/Folder Excluded: bad\libmfa.py
+[DEBUG] [2022-12-22 20:23:26,660 -0300[ - File/Folder Excluded: bad\libposts.py
+[DEBUG] [2022-12-22 20:23:26,662 -0300[ - File/Folder Excluded: bad\libsession.py
+[DEBUG] [2022-12-22 20:23:26,662 -0300[ - File/Folder Excluded: bad\libuser.py
+[DEBUG] [2022-12-22 20:23:26,667 -0300[ - File/Folder Excluded: bad\mod_api.py
+[DEBUG] [2022-12-22 20:23:26,668 -0300[ - File/Folder Excluded: bad\mod_csp.py
+[DEBUG] [2022-12-22 20:23:26,669 -0300[ - File/Folder Excluded: bad\mod_hello.py
+[DEBUG] [2022-12-22 20:23:26,670 -0300[ - File/Folder Excluded: bad\mod_mfa.py
+[DEBUG] [2022-12-22 20:23:26,671 -0300[ - File/Folder Excluded: bad\mod_posts.py
+[DEBUG] [2022-12-22 20:23:26,672 -0300[ - File/Folder Excluded: bad\mod_user.py
+[DEBUG] [2022-12-22 20:23:26,675 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\payloads\cookie.js
+[DEBUG] [2022-12-22 20:23:26,689 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\payloads\keylogger.js
+[DEBUG] [2022-12-22 20:23:26,693 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\bad\payloads\payload.js
+[DEBUG] [2022-12-22 20:23:26,801 -0300[ - File/Folder Excluded: bad\vulpy-ssl.py
+[DEBUG] [2022-12-22 20:23:26,802 -0300[ - File/Folder Excluded: bad\vulpy.py
+[DEBUG] [2022-12-22 20:23:26,810 -0300[ - File/Folder Excluded: good\cutpasswd.py
+[DEBUG] [2022-12-22 20:23:26,811 -0300[ - File/Folder Excluded: good\db_init.py
+[DEBUG] [2022-12-22 20:23:26,813 -0300[ - File/Folder Excluded: good\httpbrute.py
+[DEBUG] [2022-12-22 20:23:26,818 -0300[ - File/Folder Excluded: good\libapi.py
+[DEBUG] [2022-12-22 20:23:26,820 -0300[ - File/Folder Excluded: good\libmfa.py
+[DEBUG] [2022-12-22 20:23:26,823 -0300[ - File/Folder Excluded: good\libposts.py
+[DEBUG] [2022-12-22 20:23:26,823 -0300[ - File/Folder Excluded: good\libsession.py
+[DEBUG] [2022-12-22 20:23:26,824 -0300[ - File/Folder Excluded: good\libuser.py
+[DEBUG] [2022-12-22 20:23:26,824 -0300[ - File/Folder Excluded: good\mod_api.py
+[DEBUG] [2022-12-22 20:23:26,825 -0300[ - File/Folder Excluded: good\mod_csp.py
+[DEBUG] [2022-12-22 20:23:26,825 -0300[ - File/Folder Excluded: good\mod_hello.py
+[DEBUG] [2022-12-22 20:23:26,827 -0300[ - File/Folder Excluded: good\mod_mfa.py
+[DEBUG] [2022-12-22 20:23:26,828 -0300[ - File/Folder Excluded: good\mod_posts.py
+[DEBUG] [2022-12-22 20:23:26,828 -0300[ - File/Folder Excluded: good\mod_user.py
+[DEBUG] [2022-12-22 20:23:26,829 -0300[ - File/Folder Excluded: good\mod_welcome1.py
+[DEBUG] [2022-12-22 20:23:26,831 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\payloads\cookie.js
+[DEBUG] [2022-12-22 20:23:26,837 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\payloads\keylogger.js
+[DEBUG] [2022-12-22 20:23:26,838 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\good\payloads\payload.js
+[DEBUG] [2022-12-22 20:23:26,876 -0300[ - File/Folder Excluded: good\vulpy-ssl.py
+[DEBUG] [2022-12-22 20:23:26,878 -0300[ - File/Folder Excluded: good\vulpy.py
+[DEBUG] [2022-12-22 20:23:26,881 -0300[ - Dependency file found location: C:\whitesource\Projects\vulpy-master\install-on-kali.sh
+[DEBUG] [2022-12-22 20:23:26,888 -0300[ - File/Folder Excluded: utils\aes-decrypt.py
+[DEBUG] [2022-12-22 20:23:26,888 -0300[ - File/Folder Excluded: utils\aes-encrypt.py
+[DEBUG] [2022-12-22 20:23:26,890 -0300[ - File/Folder Excluded: utils\ca-create.py
+[DEBUG] [2022-12-22 20:23:26,890 -0300[ - File/Folder Excluded: utils\ca-csr-create.py
+[DEBUG] [2022-12-22 20:23:26,891 -0300[ - File/Folder Excluded: utils\ca-csr-load.py
+[DEBUG] [2022-12-22 20:23:26,892 -0300[ - File/Folder Excluded: utils\crack-cvv.py
+[DEBUG] [2022-12-22 20:23:26,892 -0300[ - File/Folder Excluded: utils\crack-hash.py
+[DEBUG] [2022-12-22 20:23:26,895 -0300[ - File/Folder Excluded: utils\fernet-generate-key.py
+[DEBUG] [2022-12-22 20:23:26,900 -0300[ - File/Folder Excluded: utils\generate_bad_passwords.py
+[DEBUG] [2022-12-22 20:23:26,901 -0300[ - File/Folder Excluded: utils\hashfile.py
+[DEBUG] [2022-12-22 20:23:26,901 -0300[ - File/Folder Excluded: utils\hmac_generate.py
+[DEBUG] [2022-12-22 20:23:26,902 -0300[ - File/Folder Excluded: utils\httpbrute.py
+[DEBUG] [2022-12-22 20:23:26,902 -0300[ - File/Folder Excluded: utils\luncheck.py
+[DEBUG] [2022-12-22 20:23:26,904 -0300[ - File/Folder Excluded: utils\rsa-decrypt.py
+[DEBUG] [2022-12-22 20:23:26,905 -0300[ - File/Folder Excluded: utils\rsa-encrypt.py
+[DEBUG] [2022-12-22 20:23:26,906 -0300[ - File/Folder Excluded: utils\rsa-keygen.py
+[DEBUG] [2022-12-22 20:23:26,906 -0300[ - File/Folder Excluded: utils\rsa-sign.py
+[DEBUG] [2022-12-22 20:23:26,907 -0300[ - File/Folder Excluded: utils\rsa-verify.py
+[DEBUG] [2022-12-22 20:23:26,907 -0300[ - File/Folder Excluded: utils\scrypt-crack.py
+[DEBUG] [2022-12-22 20:23:26,908 -0300[ - File/Folder Excluded: utils\scrypt-generate.py
+[DEBUG] [2022-12-22 20:23:26,915 -0300[ - File/Folder Excluded: utils\scrypt-verify.py
+[DEBUG] [2022-12-22 20:23:26,915 -0300[ - File/Folder Excluded: utils\skey.py
+[INFO] [2022-12-22 20:23:26,926 -0300[ - Total files found according to the includes/excludes pattern: 7
+[DEBUG] [2022-12-22 20:23:26,931 -0300[ - Ignoring file with size 300 bytes: minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,932 -0300[ - Failed to calculate javaScript extra hashes: C:\whitesource\Projects\vulpy-master\bad\payloads\keylogger.js
+[DEBUG] [2022-12-22 20:23:26,939 -0300[ - Ignored file keylogger.js (345 bytes): minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,946 -0300[ - Ignoring file with size 300 bytes: minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,947 -0300[ - Failed to calculate javaScript extra hashes: C:\whitesource\Projects\vulpy-master\good\payloads\keylogger.js
+[DEBUG] [2022-12-22 20:23:26,957 -0300[ - Ignored file keylogger.js (345 bytes): minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,964 -0300[ - Ignoring file with size 13 bytes: minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,965 -0300[ - Failed to calculate javaScript extra hashes: C:\whitesource\Projects\vulpy-master\good\payloads\payload.js
+[DEBUG] [2022-12-22 20:23:26,971 -0300[ - Ignored file payload.js (12 bytes): minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,976 -0300[ - Ignoring file with size 13 bytes: minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,976 -0300[ - Failed to calculate javaScript extra hashes: C:\whitesource\Projects\vulpy-master\bad\payloads\payload.js
+[DEBUG] [2022-12-22 20:23:26,978 -0300[ - Ignored file payload.js (12 bytes): minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,989 -0300[ - Ignored file install-on-kali.sh (242 bytes): minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,994 -0300[ - Ignoring file with size 65 bytes: minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:26,994 -0300[ - Failed to calculate javaScript extra hashes: C:\whitesource\Projects\vulpy-master\bad\payloads\cookie.js
+[DEBUG] [2022-12-22 20:23:27,013 -0300[ - Ignored file cookie.js (69 bytes): minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:27,016 -0300[ - Ignoring file with size 65 bytes: minimum file size is 512B
+[DEBUG] [2022-12-22 20:23:27,018 -0300[ - Failed to calculate javaScript extra hashes: C:\whitesource\Projects\vulpy-master\good\payloads\cookie.js
+[DEBUG] [2022-12-22 20:23:27,025 -0300[ - Ignored file cookie.js (69 bytes): minimum file size is 512B
+[INFO] [2022-12-22 20:23:27,029 -0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2022-12-22 20:23:27,029 -0300[ - Finished analyzing Files
+[DEBUG] [2022-12-22 20:23:27,029 -0300[ - Available processors (cores): 	8
+Free memory (Mb): 	1178
+Max memory (Mb): 	4024
+Total memory (Mb): 	1526
+Used memory (Mb): 	347
+
+[DEBUG] [2022-12-22 20:23:27,048 -0300[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2022-12-22 20:23:27,050 -0300[ - Command - executeProcess - start execute command 'cmd /c reg query HKU\S-1-5-19' in '.'
+[DEBUG] [2022-12-22 20:23:27,148 -0300[ - GitUtils - fetchContributionInfos - START
+[DEBUG] [2022-12-22 20:23:27,154 -0300[ - GitUtils - findGitRepoPaths - .
+[DEBUG] [2022-12-22 20:23:27,158 -0300[ - GitUtils - fetchContributionInfos - END - 0
+[INFO] [2022-12-22 20:23:27,158 -0300[ - Initializing WhiteSource Client
+[DEBUG] [2022-12-22 20:23:27,158 -0300[ - Setting project tags
+[INFO] [2022-12-22 20:23:27,160 -0300[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2022-12-22 20:23:27,364 -0300[ - UpdateType set to OVERRIDE 
+[INFO] [2022-12-22 20:23:27,365 -0300[ - Sending Update
+[INFO] [2022-12-22 20:23:27,366 -0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Update Inventory ---------------------------
+------------------------------------------------------------------------
+[INFO] [2022-12-22 20:23:28,842 -0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Update Inventory -----------------------------
+------------------------------------------------------------------------
+[INFO] [2022-12-22 20:23:28,843 -0300[ - Inventory update results for NOVA8  Advise Azure GitHub Jenkins
+[INFO] [2022-12-22 20:23:28,844 -0300[ - No new projects found.
+[INFO] [2022-12-22 20:23:28,844 -0300[ - Updated projects:
+[INFO] [2022-12-22 20:23:28,844 -0300[ - # Vulnpy_Master_ZUP_UA_Python
+[INFO] [2022-12-22 20:23:28,845 -0300[ - Project name: Vulnpy_Master_ZUP_UA_Python, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=8449420
+[INFO] [2022-12-22 20:23:28,845 -0300[ - Support Token: 210eb3617d4bf4a0e925212cb08f80cb81671751410026
+[DEBUG] [2022-12-22 20:23:28,847 -0300[ - Process finished with exit code SUCCESS (Inventory update results for NOVA8  Advise Azure GitHub Jenkins
+No new projects found.
+Updated projects:
+Vulnpy_Master_ZUP_UA_Python
+
+Project name: Vulnpy_Master_ZUP_UA_Python, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=8449420
+Support Token: 210eb3617d4bf4a0e925212cb08f80cb81671751410026)
+[INFO] [2022-12-22 20:23:28,847 -0300[ - Log files are found at: .\whitesource\Thu-Dec-22-2022-20.22.17
+[INFO] [2022-12-22 20:23:28,854 -0300[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.151               --------
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:01:07.614               43 total dependencies (32 unique)
+   PIP                                               COMPLETED                  00:01:05.884               41 total dependencies (31 unique)
+   HTML                                              COMPLETED                  00:00:01.649               2 total dependencies (1 unique)
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.491               7 source/binary files
+   sh                                                COMPLETED                    --------                 1 source/binary files
+   js                                                COMPLETED                    --------                 6 source/binary files
+Update Inventory                                     COMPLETED                  00:00:01.476               1 updated projects
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:01:09.732
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
+
